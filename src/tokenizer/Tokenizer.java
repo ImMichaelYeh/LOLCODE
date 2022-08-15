@@ -44,12 +44,6 @@ public class Tokenizer {
 	    // TODO Error Handler
 	    e.printStackTrace();
 	}
-
-	getRidOfComments();
-    }
-
-    private void getRidOfComments() {
-	while (fileContent.contains("BTW")
     }
 
     public Token getNextToken() {
